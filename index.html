@@ -3,4 +3,63 @@
      Description: Website for Renting Objects
      -->
 
-     
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="style.css">
+</link>
+<link rel="icon" type="img/ico" href="Images/favicon.ico">
+</link>
+
+<title>
+  Renty
+</title>
+</head>
+<body>
+
+<img src="Images/Renty.png" alt="Renty" class="renty" style="width:300px; height: 150px">
+
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto; margin:5px; padding:10px 15px 10px 15px; border-radius:25px"><div class="Arial">Login</div></button>
+
+<div id="id01" class="modal">
+  <form class="modal-content animate" action="action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="Images/Avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Username" name="uname" required>
+      <br></br>
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <div class="Arial"><input type="checkbox" checked="checked">Keep me signed in</div></input>
+      <span class="psw"><a href="#"><div class="Arial"><u>Forgot password?</u></div></a></span>
+      <p style="clear: both;">      
+    </div>
+
+    <!-- <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>-->
+    </div>
+  </form>
+</div>
+
+<button style="width:auto; margin:5px; padding:10px 15px 10px 15px; border-radius:25px"><div class="Arial">Sign Up</div></button>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
