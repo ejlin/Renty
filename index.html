@@ -6,10 +6,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    </link>
-    <link rel="icon" type="img/ico" href="Images/favicon.ico">
-    </link>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="icon" type="img/ico" href="Images/favicon.ico"/>
     <title>
       Renty
     </title>
@@ -24,10 +22,11 @@
   </a>
 
   <body>
-    <img src="Images/Renty.png" alt="Renty" class="renty" style="width:250px; height: 120px; margin: auto auto auto 15px;">
+    <img src="Images/Renty.png" alt="Renty" class="renty" style="width:250px; height: 120px; margin: auto auto auto 15px;"/>
     <form>
-      <input type="text" style="float:left;width:60%; margin: 3.5% auto auto 15px;" placeholder="Search" required>
-      <a href=""><img src="Images/Search.png" alt="Renty" class="buttonPress" style="width:35px; height: 35px; margin: 3.5% 15px auto 15px; border-radius:25px;float:left;">
+      <input type="text" style="float:left;width:60%; margin: 3.5% auto auto 15px;" placeholder="Search"/>
+      <a href="">
+        <img src="Images/Search.png" alt="Renty" class="buttonPress" style="width:35px; height: 35px; margin: 3.5% 15px auto 15px; border-radius:25px;float:left;"/>
       </a>
     </form>
 
@@ -42,8 +41,7 @@
         <div class="imgcontainer">
           <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;
           </span>
-          <img src="Images/Avatar.png" alt="Avatar" class="avatar">
-          </img>
+          <img src="Images/Avatar.png" alt="Avatar" class="avatar"/>
         </div>
 
         <div class="container">
@@ -52,42 +50,37 @@
               Username
             </b>
           </label>
-        <input type="text" placeholder="Username" name="uname" required>
+          <input type="text" placeholder="Username" name="uname" required/>
           <br>
           </br>
-        </input>
-        <label>
-          <b>
-            Password
-          </b>
-        </label>
-        <input type="password" placeholder="Password" name="psw" required>
-        </input>
-        <button type="submit" class="buttonPress">
-          Login
-        </button>
-        <div class="Arial">
-          <input type="checkbox" checked="checked">
-            Keep me signed in
-          </input>
+          <label>
+            <b>
+              Password
+            </b>
+          </label>
+          <input type="password" placeholder="Password" name="psw" required/>
+          <button type="submit" class="buttonPress">
+            Login
+          </button>
+          <div class="Arial">
+            <input type="checkbox" checked="checked">
+              Keep me signed in
+            </input>
+          </div>
+          <span class="psw">
+            <a href="#">
+              <div class="Arial">
+                <u>
+                  Forgot password?
+                </u>
+              </div>
+            </a>
+          </span>
+          <p style="clear: both;">      
         </div>
-        <span class="psw">
-          <a href="#">
-            <div class="Arial">
-              <u>
-                Forgot password?
-              </u>
-            </div>
-          </a>
-        </span>
-        <p style="clear: both;">      
-      </div>
+      </form>
+    </div>
 
-      <!-- <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>-->
-    </form>
-  </div>
-
-    <!--<button style="width:auto; margin:5px; padding:10px 15px 10px 15px; border-radius:25px" class="buttonPress">-->
     <button onclick="document.getElementById('id02').style.display='block'" class="buttonPress" style="width:auto; margin:3.5% auto auto 15px; padding:10px 15px 10px 15px; border-radius:25px">    
       <div class="ArialButton">
         Sign Up
@@ -99,8 +92,7 @@
         <div class="imgcontainer">
           <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;
           </span>
-          <img src="Images/Avatar.png" alt="Avatar" class="avatar">
-          </img>
+          <img src="Images/Avatar.png" alt="Avatar" class="avatar"/>
         </div>
 
         <div class="container">
@@ -109,66 +101,58 @@
               Username
             </b>
           </label>
-        <input type="text" placeholder="Username" name="uname" required>
-          <br>
-          </br>
-        </input>
-        <label>
-          <b>
-            Password
-          </b>
-        </label>
-        <input type="password" placeholder="Password" name="psw" required>
-        </input>
-        <br>
-        </br>
-        <label>
-          <b>
-            Re-type password
-          </b>
-        </label>
-        <input type="password" placeholder="Re-type password" name="psw" required>
-        </input>
-        <br>
-        </br>
-        <label>
-          <b>
-            Email
-          </b>
-        </label>
-        <input type="email" placeholder="Email" name="_replyto" required>
-        </input>
-        <br>
-        </br>
-        <label>
-          <b>
-            Date of Birth
-          </b>
-        </label>
-        <input type="date" placeholder="Date of Birth" name="bday" required>
-        </input>
-
-        <button type="submit" class="buttonPress">
-          Sign Up
-        </button>
-        <div class="Arial">
-          <input type="checkbox" checked="checked">
-            Keep me signed in
-          </input>
+          <input type="text" placeholder="Username" name="uname" required/>
+            <br>
+            </br>
+          <label>
+            <b>
+              Password
+            </b>
+          </label>
+          <input type="password" placeholder="Password" name="psw" required/>
+            <br>
+            </br>
+          <label>
+            <b>
+              Re-type password
+            </b>
+          </label>
+          <input type="password" placeholder="Re-type password" name="psw" required/>
+            <br>
+            </br>
+          <label>
+            <b>
+              Email
+            </b>
+          </label>
+          <input type="email" placeholder="Email" name="_replyto" required/>
+            <br>
+            </br>
+          <label>
+            <b>
+              Date of Birth
+            </b>
+          </label>
+          <input type="date" placeholder="Date of Birth" name="bday" required/>
+          <button type="submit" class="buttonPress">
+            Sign Up
+          </button>
+          <div class="Arial">
+            <input type="checkbox" checked="checked">
+              Keep me signed in
+            </input>
+          </div>
+          <p style="clear: both;">      
         </div>
-        <p style="clear: both;">      
-      </div>
-  
-    </form>
+      </form>
     </div>
 
-        <p style="clear: both;">      
+    <p style="clear: both;">      
   
     <div class="midHeader">
       <div class="link">
           <a href="index.html">
-            <img src="Images/Home.png" alt="icon" class="icon">      
-            </img>
+            <img src="Images/Home.png" alt="icon" class="icon"/>
           </a>
       </div>
 
@@ -183,7 +167,6 @@
           Post
         </a>
       </div>
-
       
       <div class="link">
         <a href="" style="text-decoration:none">
@@ -196,6 +179,7 @@
           My Account
         </a>
       </div>
+
       <div class="link">
         <a href="FAQ.html" style="text-decoration:none">        
           FAQ
@@ -207,65 +191,63 @@
     </br>
     
     <div id="container">
-    <center>
-	    <p style="font-family:'Arial-Black';font-size:28px;margin-bottom:25px;">Browse our top hits today</p>
-    </center>
-    <!-- Each image is 350px by 233px -->
-    <div class="photobanner">
+      <center>
+	<p style="font-family:'Arial-Black';font-size:24px;margin-bottom:25px;">
+          Browse our top hits today
+        </p>
+      </center>
+      <div class="photobanner">
     	<img class="first" src="Images/car.png" alt="" style="width:355px;height:233px;"/>
     	<img src="Images/screwdriver.png" alt="" style="width:355px;height:233px;" />
     	<img src="Images/khaki.png" alt="" style="width:355px;height:233px;"/>
-    	<img src="Images/Lawnmower.png" alt=""style="width:355px;height:233px;" />
+    	<img src="Images/Lawnmower.png" alt="" style="width:355px;height:233px;" />
     	<img src="Images/Table.png" alt="" style="width:355px;height:233px;"/>
     	<img src="Images/Soccerball.png" alt="" style="width:355px;height:233px;"/>
     	<img src="Images/car.png" alt="" style="width:355px;height:233px;"/>
     	<img src="Images/screwdriver.png" alt="" style="width:355px;height:233px;" />
     	<img src="Images/khaki.png" alt="" style="width:355px;height:233px;" />
     	<img src="Images/Lawnmower.png" alt="" style="width:355px;height:233px;" />
-    </div>
+      </div>
     </div>
 
     <div class="footer">
       <center>
-      <a href="http://www.facebook.com/tgih1999" style="text-decoration:none;">
-            <img src="Images/Facebook-icon.jpg" alt="Connect with me on Facebook!" style="width: 40px;height:40px;margin-top:30px;" 
-              title="Connect with me on Facebook!">
-            </img>
-          </a>
-      <a href="http://www.facebook.com/tgih1999" style="text-decoration:none;">
-            <img src="Images/twitter-icon.png" alt="Connect with me on Facebook!" style="width: 40px;height:40px;margin-top:30px;" 
-              title="Connect with me on Facebook!">
-            </img>
-          </a>
-         <a href="http://www.facebook.com/tgih1999" style="text-decoration:none;">
-            <img src="Images/Gmail-icon.png" alt="Connect with me on Facebook!" style="width: 40px;height:40px;margin-top:30px;" 
-              title="Connect with me on Facebook!">
-            </img>
-          </a>
-          <p></p>
-          <div style="color:white;font-family: 'Arial';">
+        <a href="http://www.facebook.com" style="text-decoration:none;">
+          <img src="Images/Facebook-icon.jpg" alt="Connect with me on Facebook!" style="width: 40px;height:40px;margin-top:30px;" 
+          title="Connect with me on Facebook!">
+          </img>
+        </a>
+        <a href="http://www.twitter.com" style="text-decoration:none;">
+          <img src="Images/twitter-icon.png" alt="Connect with me on Facebook!" style="width: 40px;height:40px;margin-top:30px;" 
+          title="Connect with me on Facebook!">
+          </img>
+        </a>
+        <a href="http://www.facebook.com/tgih1999" style="text-decoration:none;">
+          <img src="Images/Gmail-icon.png" alt="Connect with me on Facebook!" style="width: 40px;height:40px;margin-top:30px;" 
+          title="Connect with me on Facebook!">
+          </img>
+        </a>
+        <p></p>
+        <div style="color:white;font-family: 'Arial';">
           contact@renty.com
         </div>
-
-         <p></p>
+        <p></p>
         <div style="color:white;font-family:'Arial';font-size:12px;">
-          <a href="" style="color:white;text-decoration:none;">Conditions of Use</a> &nbsp; <a href="" style="color:white;text-decoration:none"> Privacy Notice</a>
-            &nbsp; &copy; 2016-2016, Renty.com, Inc. or its affiliates
+          <a href="" style="color:white;text-decoration:none;">Conditions of Use</a> &nbsp; <a href="" style="color:white;text-decoration:none">
+            Privacy Notice
+          </a>
+          &nbsp; &copy; 2016-2016, Renty.com, Inc. or its affiliates
         </div>
-
-          </center>
-        
+      </center>        
     </div>
 
     <script>
-    // Get the modal
       var modal = document.getElementById('id01');
       var signUpModal = document.getElementById('id02');
       var postModal = document.getElementById('id03');
 
-    // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-        if (event.target == modal) {
+      window.onclick = function(event){
+        if (event.target == modal){
           modal.style.display = "none";
         }
         else if (event.target == signUpModal){
@@ -275,7 +257,6 @@
           postModal.style.display = "none";
         }
       }
-
     </script>
   </body>
 </html>
