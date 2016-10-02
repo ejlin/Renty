@@ -27,6 +27,26 @@ input[type=button] {
     border-radius: 25px;
 }
 
+.message{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.footer{
+    background-color: #4ABDAC;
+    width: 100%;
+    height: 150px;
+}
+
+.formText{
+    font-family: 'Arial';
+}
+
 /* Set a style for all buttons */
 button {
     background-color: #4ABDAC;
@@ -51,7 +71,7 @@ button {
     background-color: #4ABDAC;
     width: 100%;
     height: 40px;
-    margin-top: 40px;
+    margin-top: 10px;
     font-size: 16px;
     font-family: Arial-Black;
 }
@@ -59,7 +79,7 @@ button {
 .link {
   color: #43007a;
   margin-top: 7px;
-  margin-left: 40px;
+  margin-left: 10%;
   float: left;
 }
 
@@ -235,4 +255,107 @@ label{
        width: 100%;
     }
 }
+ 
+body {
+	<!-- src: http://subtlepatterns.com/?p=1045 -->
+	background: url('dark_geometric.png');
+}
+ 
+#container {
+	width: 1000px;
+	overflow: hidden;
+	margin: auto auto 100px auto;
+	background: white;
+}
 
+header p {
+	font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+	text-align: justify;
+}
+ 
+/*photobanner*/
+ 
+.photobanner {
+	height: 233px;
+	width: 3550px;
+	margin-bottom: 80px;
+}
+
+.first {
+	-webkit-animation: bannermove 30s linear infinite;
+	   -moz-animation: bannermove 30s linear infinite;
+	    -ms-animation: bannermove 30s linear infinite;
+	     -o-animation: bannermove 30s linear infinite;
+	        animation: bannermove 30s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+.photobanner img {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+ 
+.photobanner img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+ 
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}

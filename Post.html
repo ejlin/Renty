@@ -206,11 +206,11 @@
     
     <div class="header">
       <center>
-        Rent out:
+        Post:
       </center>
     </div>
     <div>
-      <div class="container">
+      <div class="container" style="width: 50%; margin-left: 25%;">
           <label>
             <b>
               Item name:
@@ -222,18 +222,124 @@
     </div>
 
      <div>
-      <div class="container">
+      <div class="container" style="width: 50%; margin-left: 25%;">
           <label>
             <b>
-              Item name:
+              Price ($):
             </b>
           </label>
-        <input type="text" placeholder="Item name" name="uname" required>
+        <input type="text" placeholder="Price" name="uname" required>
         </input>
       </div>
     </div>
 
+     <div>
+      <div class="container" style="width: 50%; margin-left: 25%;">
+          <label>
+            <b>
+              Department:
+            </b>
+          </label>
+        <input type="text" placeholder="Department" name="uname" required>
+        </input>
+      </div>
+    </div>
+
+    <div>
+      <div class="container" style="width: 50%; margin-left: 25%;">
+          <label>
+            <b>
+              Available:
+            </b>
+            <br></br>
+          </label>
+           <input type="radio" name="gender" value="male" checked style="float:left;"><div style="font-family:'Arial';float:left;">&nbsp;Now (For 10 days)</div><br></br> </input>  
+             <input type="radio" name="gender" value="male" checked style="float:left;"><div style="font-family:'Arial';">&nbsp;Now (Indefinitely)</div><p></p></input>            
+         
+
+           <input type="radio" name="gender" value="male" checked style="float:left;">              
+          <label style="float:left;">
+           &nbsp;From:
+          </label>
+          <label style="float:left;margin-left: 30%;">
+            To:
+          </label>
+          <br></br>
+
+                  <input type="date" placeholder="" name="uname" required style="float:left; width:30%;margin-left:20px;">
+        </input>
+                 <input type="date" placeholder="" name="uname" required style="float:left; width:30%;margin-left:40px;">
+        </input>
+        </input>
+                    </div>
+    </div>
+  
+        <p style="clear: both;">      
     
+
+    <div>
+      <div class="container" style="width: 50%; margin-left: 25%;">
+        <label for="fname" class = "formText"><b>Description:</b>
+        </label>  
+        <p>
+        </p>
+        <textarea class="message" required name="body" style="height:100px">
+        </textarea>
+
+        </input>
+      </div>
+    </div>
+
+    <div class="container" style="width: 50%; margin-left: 25%;">
+          <label>
+            <b>
+              Upload Image:
+            </b>
+          </label>
+      </div>
+    <form action="demo_form.asp" style="font-family:Arial; margin-left:25%;">
+      <input type="file" name="pic" accept="image/*" style="font-family:Arial;">
+    </form>
+
+    <br>
+    </br>
+      <center>
+        <button style="width:30%; border-radius:25px;" class="buttonPress">
+          Post
+        </button>
+        </center>
+      <br></br>
+    
+    <div class="footer">
+      <center>
+      <a href="http://www.facebook.com/tgih1999" style="text-decoration:none;">
+            <img src="Images/Facebook-icon.jpg" alt="Connect with me on Facebook!" style="width: 40px;height:40px;margin-top:30px;" 
+              title="Connect with me on Facebook!">
+            </img>
+          </a>
+      <a href="http://www.facebook.com/tgih1999" style="text-decoration:none;">
+            <img src="Images/twitter-icon.png" alt="Connect with me on Facebook!" style="width: 40px;height:40px;margin-top:30px;" 
+              title="Connect with me on Facebook!">
+            </img>
+          </a>
+         <a href="http://www.facebook.com/tgih1999" style="text-decoration:none;">
+            <img src="Images/Gmail-icon.png" alt="Connect with me on Facebook!" style="width: 40px;height:40px;margin-top:30px;" 
+              title="Connect with me on Facebook!">
+            </img>
+          </a>
+
+          <p></p>
+          <div style="color:white;font-family: 'Arial';">
+          contact@renty.com
+        </div>
+        <p></p>
+        <div style="color:white;font-family:'Arial';font-size:12px;">
+          <a href="" style="color:white;text-decoration:none;">Conditions of Use</a> &nbsp; <a href="" style="color:white;text-decoration:none"> Privacy Notice</a>
+            &nbsp; &copy; 2016-2016, Renty.com, Inc. or its affiliates
+        </div>
+          </center>
+
+    </div>
     <script>
     // Get the modal
       var modal = document.getElementById('id01');
