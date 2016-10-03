@@ -216,10 +216,10 @@ label{
 
 .coloredText, .blackText {
   margin-top: 10px;
-  margin-left: 25%;
-  width: 50%;
+  margin-left: 15%;
+  width: 70%;
   font-family: 'Arial-Black';
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .coloredText {
