@@ -255,19 +255,20 @@ label{
        width: 100%;
     }
 }
+
+* {margin: 0; padding: 0;}
  
 body {
 	<!-- src: http://subtlepatterns.com/?p=1045 -->
 	background: url('dark_geometric.png');
 }
- 
+
 #container {
-	width: 1000px;
+	width: 1200px;
 	overflow: hidden;
-	margin: auto auto 100px auto;
+	margin: 50px auto;
 	background: white;
 }
-
 header p {
 	font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
 	text-align: justify;
@@ -276,7 +277,7 @@ header p {
 /*photobanner*/
  
 .photobanner {
-	height: 233px;
+	height: 450px;
 	width: 3550px;
 	margin-bottom: 80px;
 }
@@ -338,8 +339,17 @@ header p {
  }
  
 }
- 
-.photobanner img {
+
+.zoom {
+  background-color:#4ABDAC;
+  width:350px;
+  height:450px;
+  float:left;
+  margin-left:5px;
+  border-radius:20px;
+}
+
+.zoom, .first {
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
@@ -347,12 +357,12 @@ header p {
 	transition: all 0.5s ease;
 }
  
-.photobanner img:hover {
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
+.zoom:hover, .first:hover {
+	-webkit-transform: scale(1.02);
+	-moz-transform: scale(1.02);
+	-o-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	transform: scale(1.02);
 	cursor: pointer;
  
 	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
