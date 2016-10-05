@@ -347,6 +347,7 @@ header p {
   float:left;
   margin-left:5px;
   border-radius:20px;
+  opacity:0.7;
 }
 
 .zoom, .first {
